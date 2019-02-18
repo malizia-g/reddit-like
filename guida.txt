@@ -1,0 +1,1 @@
+cd ${current.project.path} && ng serve --host 0.0.0.0 --public-host ${server.4200}
