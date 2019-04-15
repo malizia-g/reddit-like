@@ -8,9 +8,10 @@ import { Observable } from 'rxjs';
   styleUrls: ['./foo-component.component.css']
 })
 export class FooComponentComponent {
-data: Object;
+   data: Object;
    loading: boolean;
    o :Observable<Object>;
+   oFoo : Observable<Foo[]>;
    constructor(public http: HttpClient) {}
    makeRequest(): void {
      console.log("here");
